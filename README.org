@@ -1,0 +1,9 @@
+Support evaluation of SuperCollider code from Emacs org-mode code blocks.
+
+El-get recipe:
+
+#+BEGIN_SRC elisp
+(:name org-sc :url "http://github.com/iani/org-sc.git" :type git :features
+       (org-sc)
+       :after nil)
+#+END_SRC
